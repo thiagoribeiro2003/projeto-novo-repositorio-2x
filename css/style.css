@@ -157,11 +157,18 @@ header .limitador {
 
 /* HOME */
 @media screen and (min-width: 660px ) {
-    
+
 .conteudo1-home {
     display: flex;
-    justify-content: start;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: center;
+    text-align:right;
 }
+
+
+
+
 }
 
 
