@@ -122,8 +122,22 @@ header .limitador {
 
 /* HOME */
 
-
 /* FIM HOME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 660px ) {
@@ -137,7 +151,22 @@ header .limitador {
     .menu a{
         padding:  0 1rem;
     }
+
+    
 }
+
+/* HOME */
+@media screen and (min-width: 660px ) {
+    
+.conteudo1-home {
+    display: flex;
+    justify-content: start;
+}
+}
+
+
+
+
 @media screen and (max-width: 800px) {
 
   
