@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap');
+
+
+
+
 /* MODIFICAÇÕES GERAIS */
 
 *, *::after, *::before {
@@ -14,23 +19,18 @@ html {
     font-size: 20px; /* ou 1rem*/
 }
 
+
 /* determinando fonte */
-body h1, h2, h3, p, figure {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+h1 {
+    font-family: 'Roboto', sans-serif;
 }
 
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
 /* FIM DAS CONFIGURAÇÕES GERAIS */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -96,6 +96,23 @@ nav,h1 {
     text-transform: uppercase;
 }
 
+header .limitador {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.limitador {
+    max-width: 1100px;
+    width: 95vw;
+    margin: auto;
+}
+
+.limitador h2 a {
+    color: black;
+}
+
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
 
@@ -103,155 +120,10 @@ nav,h1 {
 
 
 
+/* HOME */
 
 
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
-    font-size: 1.5rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #1266f1;
-}
-
-.index-title h1{
-    color: #1266f1;
-    text-align: left;
-}
-
-h1 a{
-    padding: 0.3rem 1rem;
-    border-radius: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: black;
-    color: white;
-}
-header {
-    background-color: white;
-    position: sticky;
-    top: 0;    
-}
-header .limitador {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-.limitador {
-    max-width: 1100px;
-    width: 95vw;
-    margin: auto;
-}
-
-
-h2 a {
-    color: black;
-}
-
-
-
-
-/* Formatando o formulário */
-form {
-    max-width: 3000px;
-    /* max-width aumenta o tamanho do formulario (a cor azul) */
-    width: 100%;
-    margin: auto;
-    background-color: #2a76f1;
-    padding: 1rem;
-    border-radius: 10px;
-}
-
-label {
-    color: aliceblue;
-}
-
-/* seletor :not()
-Usado para criar exceções. No exemplo abaixo, vamos formatar todos os inputs, exceto, radio e checkbox
-*/
-input:not([type="radio"]):not([type="checkbox"]), select, textarea {
-    width: 100%;
-    height: 40px;
-    border: none;
-    padding: 2%;
-    box-shadow: rgb(82, 76, 76) 0 0 1px inset;
-}
-
-
-textarea {
-    height: auto;
-}
-
-button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 1rem;
-    font-weight: bold;
-    margin-top: .2rem;
-    display: flex;
-    justify-content: center;
-}
-
-button:hover, button:focus {
-    background-color: darkblue;
-    cursor: pointer;
-}
-
-form div {
-    margin-top: 1rem;
-}
-
-#apelido-endereco {
-    text-align: center;
-}
-
-.redes-sociais a, i {
-    display: flex;
-    flex-direction: row;
-    
-}
-
-
-
-.botao{
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1px solid;  
-}
-
-
-
-.texto-doar {
-text-align: center;
-
-}
-
-.mapa {
-    display: flex;
-    position: absolute;
-    left: 50%;
-    bottom: 2px;
-}
-
- .formulario-ctt{
-    background-color: #1266f1;
-}
-
-
+/* FIM HOME */
 
 
 @media screen and (min-width: 660px ) {
@@ -265,30 +137,9 @@ text-align: center;
     .menu a{
         padding:  0 1rem;
     }
-
-    h1{
-        color: red;
-    }
-
-    .primeiro-home {
-        display: flex;
-        justify-content: end;
-    }
-
 }
 @media screen and (max-width: 800px) {
-    html {
-        font-size: 18px;
-    }
-    header .limitador {
-        height: 15vh;
-    }
 
-    .destaque {
-        width: 85vh;
-    } 
-
-    
+  
 }
 
-/* Rodape */
