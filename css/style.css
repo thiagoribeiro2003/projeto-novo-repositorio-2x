@@ -233,31 +233,7 @@ form div {
     border-radius: 1px solid;  
 }
 
-@media screen and (min-width: 660px ) {
-    .icone {display: none;
-    }
-    .menu {
-        justify-content: space-between;
-        display: flex;
-        padding: 1rem;
-    }
-    .menu a{
-        padding:  0 1rem;
-    }
 
-}
-@media screen and (max-width: 800px) {
-    html {
-        font-size: 18px;
-    }
-    header .limitador {
-        height: 15vh;
-    }
-
-    .destaque {
-        width: 85vh;
-    } 
-}
 
 .texto-doar {
 text-align: center;
@@ -275,5 +251,43 @@ text-align: center;
     background-color: #1266f1;
 }
 
+
+
+@media screen and (min-width: 660px ) {
+    .icone {display: none;
+    }
+    .menu {
+        justify-content: space-between;
+        display: flex;
+        padding: 1rem;
+    }
+    .menu a{
+        padding:  0 1rem;
+    }
+
+    h1{
+        color: red;
+    }
+
+    .primeiro-home {
+        display: flex;
+        justify-content: end;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+    header .limitador {
+        height: 15vh;
+    }
+
+    .destaque {
+        width: 85vh;
+    } 
+
+    
+}
 
 /* Rodape */
