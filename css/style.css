@@ -12,6 +12,7 @@
 /* formatando imagens */
 img {
     max-width: 100%;
+    max-height: 80%;
 }
 
 /* zoom do site */
@@ -121,7 +122,9 @@ header .limitador {
 
 
 /* HOME */
-
+.conteudo-home h1{
+    color: #3385d9;
+}
 /* FIM HOME */
 
 
@@ -151,20 +154,34 @@ header .limitador {
     .menu a{
         padding:  0 1rem;
     }
-
-    
+  
 }
 
 /* HOME */
-@media screen and (min-width: 660px ) {
+@media screen and (min-width: 1000px ) {
 
 .conteudo1-home {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     text-align: center;
-    text-align:right;
+    text-align:left;
+    margin-top: 50px;
+    margin-left: 50%; 
+    margin-right: 130px;
 }
+
+.conteudo1-home h1 {
+    font-size: 40px;
+  margin-right: 190px;
+}
+
+
+.conteudo1-home img {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
