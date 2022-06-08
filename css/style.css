@@ -1,0 +1,279 @@
+/* MODIFICAÇÕES GERAIS */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* formatando imagens */
+img {
+    max-width: 100%;
+}
+
+/* zoom do site */
+html {
+    font-size: 20px; /* ou 1rem*/
+}
+
+/* determinando fonte */
+body h1, h2, h3, p, figure {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+/* FIM DAS CONFIGURAÇÕES GERAIS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODIFICAÇÕES DO MENU */
+
+/* tirando sublinhado do menu */
+nav a {
+    text-decoration: none;  
+}
+
+/* formatando menu */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none; 
+}
+
+/* jogando pra direita o icone de menu no mobile */
+nav, nav p {
+    width: 65%;
+    text-align: right; 
+}
+
+/* icone que abre o menu no mobile */
+.icone {
+    font-size: 1.2rem;
+    padding: .5rem;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+/*  configurações do texto do menu */
+.menu a {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px; /* DISTANCIA ENTRE OS ITENS */
+    align-items: center; /* POSICAO DO TEXTO DENTRO DO A */
+}
+
+/* cor de fundo quando passa o mouse em cima */
+.menu a:hover, .menu a:active {
+    background-color: rgb(207, 203, 203);
+    border-radius: 5px;
+}
+
+/* configuraçao do menu mobile do js */
+.menu-aberto {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+/* deixa o texto maiusculo */
+nav,h1 {
+    text-transform: uppercase;
+}
+
+/* FIM DAS CONFIGURAÇÕES DO MENU*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1266f1;
+}
+
+.index-title h1{
+    color: #1266f1;
+    text-align: left;
+}
+
+h1 a{
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;    
+}
+header .limitador {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.limitador {
+    max-width: 1100px;
+    width: 95vw;
+    margin: auto;
+}
+
+
+h2 a {
+    color: black;
+}
+
+
+
+
+/* Formatando o formulário */
+form {
+    max-width: 3000px;
+    /* max-width aumenta o tamanho do formulario (a cor azul) */
+    width: 100%;
+    margin: auto;
+    background-color: #2a76f1;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+label {
+    color: aliceblue;
+}
+
+/* seletor :not()
+Usado para criar exceções. No exemplo abaixo, vamos formatar todos os inputs, exceto, radio e checkbox
+*/
+input:not([type="radio"]):not([type="checkbox"]), select, textarea {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 2%;
+    box-shadow: rgb(82, 76, 76) 0 0 1px inset;
+}
+
+
+textarea {
+    height: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: .2rem;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover, button:focus {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+form div {
+    margin-top: 1rem;
+}
+
+#apelido-endereco {
+    text-align: center;
+}
+
+.redes-sociais a, i {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.botao{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px solid;  
+}
+
+@media screen and (min-width: 660px ) {
+    .icone {display: none;
+    }
+    .menu {
+        justify-content: space-between;
+        display: flex;
+        padding: 1rem;
+    }
+    .menu a{
+        padding:  0 1rem;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+    header .limitador {
+        height: 15vh;
+    }
+
+    .destaque {
+        width: 85vh;
+    } 
+}
+
+.texto-doar {
+text-align: center;
+
+}
+
+.mapa {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+}
+
+ .formulario-ctt{
+    background-color: #1266f1;
+}
+
+
+/* Rodape */
