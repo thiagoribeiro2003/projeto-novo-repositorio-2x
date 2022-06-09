@@ -178,12 +178,8 @@ header .limitador {
     
 }
 
-.esquerda-home {
-    width: 40%;
-}
-
-.direita-home {
-    width: 40%;
+.esquerda-home, .direita-home {
+    width: 45%;
 }
 
 
