@@ -120,6 +120,11 @@ header .limitador {
     color: black;
 }
 
+/* MENU STICKY */
+.menu {
+    z-index: 20;
+}
+
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
 .querodoar {
