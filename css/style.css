@@ -142,7 +142,7 @@ header .limitador {
 
 
 
-
+/* MENU RESPONSIVO */
 @media screen and (min-width: 660px ) {
     .icone {display: none;
     }
@@ -154,10 +154,12 @@ header .limitador {
     .menu a{
         padding:  0 1rem;
     }
-  
+ 
 }
 
-/* HOME */
+                /* HOME */
+
+/* HOME PARA TELAS GRANDES*/
 @media screen and (min-width: 1000px ) {
 
 .conteudo1-home {
@@ -179,14 +181,10 @@ header .limitador {
     align-items: center;
 }
 
-.conteudo1-home p {
-    font-size: 25px;
+.imagem1-home {
+display: flex;
+justify-content: flex-start;
 }
-
-.conteudo1-home img {
-    
-}
-
 
 
 .conteudo2-home {
@@ -200,17 +198,21 @@ header .limitador {
     margin-right: 90px;
 }
 
-
-
-
-
 }
 
-
-
-
+/*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 800px) {
+.conteudo-home {
+    text-align: center;
+}
 
+.conteudo-home { 
+    margin: 20px;
+}
+
+.conteudo-home img{
+    margin-bottom: 50px;
+}
   
 }
 
