@@ -161,7 +161,7 @@ header .limitador {
                 /* HOME */
 
 /* HOME PARA TELAS GRANDES*/
-@media screen and (min-width: 1000px ) {
+@media screen and (min-width: 900px ) {
 
 .conteudo1-home {
     display: flex;
@@ -176,10 +176,10 @@ header .limitador {
 
 .conteudo1-home h1 {
     font-size: 2.2rem;
-    margin-right: 230px;
+    margin-right: 260px;
     display: flex;
-    
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .imagem1-home {
@@ -191,18 +191,34 @@ justify-content: flex-start;
 .conteudo2-home {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     text-align: center;
     text-align:left;
     margin-top: 70px;
-    margin-left: 50%; 
-    margin-right: 90px;
+    margin-left: 90px; 
+    margin-right: 50%; 
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
+
+.conteudo2-home p {
+    line-height: 35px;
+}
+
+.conteudo2-home h1 {
+    font-size: 2.2rem;
+    margin-right: 260px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
 
 }
 
 /*  HOME PARA TELAS PEQUENAS */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 .conteudo-home {
     text-align: center;
 }
