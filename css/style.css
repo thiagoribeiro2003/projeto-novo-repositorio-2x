@@ -40,6 +40,7 @@ p {
 
 /* MODIFICAÇÕES DO MENU */
 
+
 /* tirando sublinhado do menu */
 nav a {
     text-decoration: none;  
@@ -142,7 +143,7 @@ header .limitador {
 
 
 
-
+/* MENU RESPONSIVO */
 @media screen and (min-width: 660px ) {
     .icone {display: none;
     }
@@ -154,10 +155,12 @@ header .limitador {
     .menu a{
         padding:  0 1rem;
     }
-  
+ 
 }
 
-/* HOME */
+                /* HOME */
+
+/* HOME PARA TELAS GRANDES*/
 @media screen and (min-width: 1000px ) {
 
 .conteudo1-home {
@@ -185,8 +188,6 @@ justify-content: flex-start;
 }
 
 
-
-
 .conteudo2-home {
     display: flex;
     flex-wrap: wrap;
@@ -198,17 +199,21 @@ justify-content: flex-start;
     margin-right: 90px;
 }
 
-
-
-
-
 }
 
-
-
-
+/*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 800px) {
+.conteudo-home {
+    text-align: center;
+}
 
+.conteudo-home { 
+    margin: 20px;
+}
+
+.conteudo-home img{
+    margin-bottom: 50px;
+}
   
 }
 
