@@ -179,6 +179,7 @@ header .limitador {
     margin-right: 260px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .imagem1-home {
@@ -200,9 +201,8 @@ justify-content: flex-start;
     margin-bottom: 70px;
 }
 
-.conteudo2-home img, p {
-    display: flex;
-    justify-content: flex-end;
+.conteudo2-home p {
+    line-height: 35px;
 }
 
 .conteudo2-home h1 {
@@ -210,13 +210,10 @@ justify-content: flex-start;
     margin-right: 260px;
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.imagem1-home {
-display: flex;
-justify-content: flex-start;
-}
+
 
 }
 
