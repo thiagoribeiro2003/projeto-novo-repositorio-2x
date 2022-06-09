@@ -34,8 +34,6 @@ p {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-
-
 /* FIM DAS CONFIGURAÇÕES GERAIS */
 
 
@@ -43,8 +41,11 @@ p {
 
 
 
-/* MODIFICAÇÕES DO MENU */
 
+
+
+
+/* MODIFICAÇÕES DO MENU */
 
 /* tirando sublinhado do menu */
 nav a {
@@ -127,10 +128,28 @@ header .limitador {
 
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
+
+
+
+
+
+
+
+
+
 .querodoar {
     max-width: 10%;
     width: 200px;
 }
+
+.container h2 {
+    color: #3385d9;
+}
+
+.container button {
+   margin-right: 250px;
+}
+
 
 
 
