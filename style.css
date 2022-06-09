@@ -185,7 +185,7 @@ header .limitador {
 
 /* HOME PARA TELAS GRANDES*/
 @media screen and (min-width: 901px ) {
-
+/*1ª sessão home*/
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
@@ -210,9 +210,34 @@ font-size: 22px;
 .esquerda-home, .direita-home {
     width: 45%;
 }
+
+
+/* 2ª sessão home */
+.conteudo2-home {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px; 
 }
 
+.conteudo2-home img {
+    margin-top: 90px;
+    border-radius: 10px;
+}
 
+.conteudo2-home h1, p{
+    margin-top: 90px;
+}
+
+.conteudo2-home p{
+margin-top: 30px;
+line-height: 40px;
+font-size: 22px;
+}
+
+.esquerda2-home, .direita2-home {
+    width: 45%;
+}
+}
 
 /*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 900px) {
@@ -234,6 +259,8 @@ font-size: 22px;
 }
   
 }
+
+/* FIM CSS HOME */
 
 
 
