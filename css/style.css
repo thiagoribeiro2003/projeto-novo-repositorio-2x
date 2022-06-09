@@ -180,18 +180,22 @@ header .limitador {
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 200px;
-    margin-top: 80px;  
+    margin-bottom: 50px; 
 }
 
 .conteudo1-home img {
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.conteudo1-home h1, p{
     margin-top: 90px;
 }
 
 .conteudo1-home p{
 margin-top: 30px;
 line-height: 40px;
-font-size: 20px;
+font-size: 22px;
 }
 
 .esquerda-home, .direita-home {
@@ -201,40 +205,6 @@ font-size: 20px;
 
 
 
-.conteudo2-home {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 200px;
-    margin-top: 80px;  
-}
-
-.conteudo2-home p{
-margin-top: 30px;
-line-height: 40px;
-font-size: 20px;
-}
-
-.esquerda2-home, .direita2-home {
-    width: 45%;
-}
-
-
-.conteudo2-home {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    text-align: center;
-    text-align:left;
-    margin-top: 70px;
-    margin-left: 90px; 
-    margin-right: 50%; 
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
-
-.conteudo2-home p {
-    line-height: 35px;
-}
 
 
 
