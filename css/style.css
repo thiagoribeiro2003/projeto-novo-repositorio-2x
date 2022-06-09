@@ -35,6 +35,7 @@ p {
 }
 
 
+
 /* FIM DAS CONFIGURAÇÕES GERAIS */
 
 
@@ -121,6 +122,10 @@ header .limitador {
 
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
+.querodoar {
+    max-width: 10%;
+    width: 200px;
+}
 
 
 
