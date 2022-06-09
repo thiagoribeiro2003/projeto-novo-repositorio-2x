@@ -38,6 +38,14 @@ p {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> d6d45fdc54a77dde49920f0023ee85dcf180f226
 /* MODIFICAÇÕES DO MENU */
 
 /* tirando sublinhado do menu */
@@ -141,6 +149,7 @@ header .limitador {
 
 
 
+
 /* HOME */
 .conteudo-home h1{
     color: #3385d9;
@@ -174,10 +183,13 @@ header .limitador {
     .menu a{
         padding:  0 1rem;
     }
- 
 }
 
-                /* HOME */
+
+
+
+
+/* HOME */
 
 /* HOME PARA TELAS GRANDES*/
 @media screen and (min-width: 901px ) {
@@ -206,16 +218,9 @@ font-size: 22px;
 .esquerda-home, .direita-home {
     width: 45%;
 }
-
-
-
-
-
-
-
-
-
 }
+
+
 
 /*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 900px) {
@@ -232,8 +237,14 @@ font-size: 22px;
 }
 
 .esquerda-home img {
-    
+    display: flex;
+    flex-direction: flex-reverse;
 }
   
 }
+
+
+
+
+
 
