@@ -175,6 +175,8 @@ header .limitador {
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 200px;
+    margin-top: 80px;
     
 }
 
