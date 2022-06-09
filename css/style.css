@@ -179,13 +179,11 @@ header .limitador {
     align-items: center;
 }
 
-.conteudo1-home p {
-    font-size: 25px;
+.imagem1-home {
+display: flex;
+justify-content: flex-start;
 }
 
-.conteudo1-home img {
-    
-}
 
 
 
