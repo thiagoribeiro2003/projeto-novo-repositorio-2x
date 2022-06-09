@@ -142,7 +142,7 @@ header .limitador {
 
 
 
-
+/* MENU RESPONSIVO */
 @media screen and (min-width: 660px ) {
     .icone {display: none;
     }
@@ -159,7 +159,7 @@ header .limitador {
 
                 /* HOME */
 
-/*telas grandes*/
+/* HOME PARA TELAS GRANDES*/
 @media screen and (min-width: 1000px ) {
 
 .conteudo1-home {
@@ -200,7 +200,7 @@ justify-content: flex-start;
 
 }
 
-
+/*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 800px) {
 .conteudo-home {
     text-align: center;
