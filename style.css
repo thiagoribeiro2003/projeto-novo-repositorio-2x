@@ -122,7 +122,91 @@ header .limitador {
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
 
+/* Página QUEM SOMOS */
 
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.coluna1, .coluna1-img {
+    width:45%;
+    
+}
+
+.coluna1-img img {
+    border-radius: 10px;
+}
+
+.coluna1 h1 {
+    text-align: center;
+    color: #3385d9;
+}
+
+
+
+/* Section container2 */
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.coluna2-img, .coluna2{
+    width:45%;
+}
+
+.coluna2-img img {
+    border-radius: 10px;
+}
+
+.coluna2 h1 {
+    text-align: center;
+    color: #3385d9;
+}
+
+/* Section container3 */
+.container3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.coluna3-img, .coluna3{
+    width:45%;
+}
+
+.coluna3-img img {
+    border-radius: 10px;
+}
+
+.coluna3 h1 {
+    text-align: center;
+    color: #3385d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Página quero doar 
 .querodoar {
     max-width: 10%;
     width: 200px;
@@ -136,6 +220,7 @@ header .limitador {
    margin-right: 250px;
 }
 
+*/
 
 
 
