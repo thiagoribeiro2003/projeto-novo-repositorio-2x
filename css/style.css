@@ -180,9 +180,22 @@ header .limitador {
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 200px;
-    margin-top: 80px;
-    
+    margin-bottom: 50px; 
+}
+
+.conteudo1-home img {
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.conteudo1-home h1, p{
+    margin-top: 90px;
+}
+
+.conteudo1-home p{
+margin-top: 30px;
+line-height: 40px;
+font-size: 22px;
 }
 
 .esquerda-home, .direita-home {
@@ -190,30 +203,10 @@ header .limitador {
 }
 
 
-.conteudo2-home {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    text-align: center;
-    text-align:left;
-    margin-top: 70px;
-    margin-left: 90px; 
-    margin-right: 50%; 
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
 
-.conteudo2-home p {
-    line-height: 35px;
-}
 
-.conteudo2-home h1 {
-    font-size: 2.2rem;
-    margin-right: 260px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
+
+
 
 
 
