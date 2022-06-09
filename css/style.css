@@ -181,11 +181,40 @@ header .limitador {
     display: flex;
     justify-content: space-around;
     margin-bottom: 200px;
-    margin-top: 80px;
-    
+    margin-top: 80px;  
+}
+
+.conteudo1-home img {
+    margin-top: 90px;
+}
+
+.conteudo1-home p{
+margin-top: 30px;
+line-height: 40px;
+font-size: 20px;
 }
 
 .esquerda-home, .direita-home {
+    width: 45%;
+}
+
+
+
+
+.conteudo2-home {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    margin-top: 80px;  
+}
+
+.conteudo2-home p{
+margin-top: 30px;
+line-height: 40px;
+font-size: 20px;
+}
+
+.esquerda2-home, .direita2-home {
     width: 45%;
 }
 
@@ -207,13 +236,7 @@ header .limitador {
     line-height: 35px;
 }
 
-.conteudo2-home h1 {
-    font-size: 2.2rem;
-    margin-right: 260px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
+
 
 
 
