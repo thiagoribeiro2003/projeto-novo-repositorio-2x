@@ -157,6 +157,9 @@ header .limitador {
     justify-content: space-around;
     margin-top: 50px;
 }
+.coluna1 h1, p, .coluna2 h1, p, .coluna3 h1, p{
+    padding-top: 3vh;
+}
 
 .coluna2-img, .coluna2{
     width:45%;
@@ -177,6 +180,7 @@ header .limitador {
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 50px;
+    
 }
 
 .coluna3-img, .coluna3{
@@ -189,6 +193,39 @@ header .limitador {
 
 .coluna3 h1 {
     text-align: center;
+    color: #3385d9;
+}
+
+
+/* cta */
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15vh;
+
+    
+}
+
+.cta1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+    
+}
+
+
+
+.cta-conteudo, .cta-conteudo1, .cta-conteudo2 {
+    width: 33%;
+    padding-top: 25px;
+    padding-inline: 60px;
+}
+
+.cta-conteudo h2, .cta-conteudo1 h2, .cta-conteudo2 h2 {
     color: #3385d9;
 }
 
