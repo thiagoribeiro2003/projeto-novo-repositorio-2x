@@ -122,6 +122,9 @@ header .limitador {
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
 
+
+
+
 /* Página QUEM SOMOS */
 
 .container {
@@ -188,6 +191,8 @@ header .limitador {
     text-align: center;
     color: #3385d9;
 }
+
+
 
 
 
@@ -274,7 +279,7 @@ header .limitador {
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px; 
+    margin-bottom: 10px; 
 }
 
 .conteudo1-home img {
@@ -289,12 +294,14 @@ header .limitador {
 .conteudo1-home p{
 margin-top: 30px;
 line-height: 40px;
-font-size: 22px;
+font-size: 20px;
 }
 
 .esquerda-home, .direita-home {
     width: 45%;
 }
+
+
 
 
 /* 2ª sessão home */
@@ -316,7 +323,7 @@ font-size: 22px;
 .conteudo2-home p{
 margin-top: 30px;
 line-height: 40px;
-font-size: 22px;
+font-size: 20px;
 }
 
 .esquerda2-home, .direita2-home {
