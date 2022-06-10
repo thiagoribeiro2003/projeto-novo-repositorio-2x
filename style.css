@@ -17,12 +17,17 @@ img, iframe {
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* zoom do site */
 html {
     font-size: 20px; /* ou 1rem*/
+    overflow-x: hidden;
+    
+    
 }
+
 
 
 /* determinando fonte */
@@ -238,6 +243,13 @@ button a {;
 
 
 
+.container h2 {
+    color: #1266f1;
+}
+
+
+
+
 
 
 
@@ -277,7 +289,7 @@ button a {;
 
 /* HOME */
 .conteudo-home h1{
-    color: #3385d9;
+    color: #1266f1;
 }
 /* FIM HOME */
 
@@ -323,11 +335,14 @@ button a {;
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px; 
+    align-items: center;
+    margin-left: 50px;
 }
 
 .conteudo1-home img {
     margin-top: 90px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .conteudo1-home h1, p{
@@ -336,12 +351,12 @@ button a {;
 
 .conteudo1-home p{
 margin-top: 30px;
-line-height: 40px;
-font-size: 20px;
+line-height: 35px;
+font-size: 22px;
 }
 
 .esquerda-home, .direita-home {
-    width: 45%;
+    width: 48%;
 }
 
 
@@ -365,13 +380,17 @@ font-size: 20px;
 
 .conteudo2-home p{
 margin-top: 30px;
-line-height: 40px;
-font-size: 20px;
+line-height: 35px;
+font-size: 22px;
 }
 
+.direita2-home {
+    margin-top: 65px;
+}
 .esquerda2-home, .direita2-home {
     width: 45%;
 }
+
 }
 
 /*  HOME PARA TELAS PEQUENAS */
@@ -386,6 +405,17 @@ font-size: 20px;
 
 .conteudo-home img{
     margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.esquerda-home h1{
+    margin-top: 35px;
+    margin-bottom: 19px;
+}
+
+.direita2-home h1{
+    margin-top: 35px;
+    margin-top: 19px;
 }
 
 .conteudo2-home {
