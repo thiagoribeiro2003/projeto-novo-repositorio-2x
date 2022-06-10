@@ -345,9 +345,9 @@ font-size: 20px;
     margin-bottom: 50px;
 }
 
-.esquerda-home img {
-    display: flex;
-    flex-direction: flex-reverse;
+.conteudo2-home {
+   display: flex;
+   flex-direction: column-reverse;
 }
   
 }
