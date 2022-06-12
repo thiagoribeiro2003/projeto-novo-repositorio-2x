@@ -123,13 +123,14 @@ header .limitador {
 .menu {
     z-index: 20;
 }
+
 header {
     position: sticky;
 }
 
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
-button a {;
+button a {
     text-decoration: none;
     color: #fff;
 }
@@ -295,19 +296,6 @@ button a {;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MENU RESPONSIVO */
 @media screen and (min-width: 660px ) {
     .icone {display: none;
@@ -323,43 +311,39 @@ button a {;
 }
 
 
-
-
-
 /* HOME */
 
 /* HOME PARA TELAS GRANDES*/
-@media screen and (min-width: 901px ) {
+
+@media screen and (min-width: 901px) {
 /*1ª sessão home*/
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px; 
+    margin-bottom: 5px; 
     align-items: center;
     margin-left: 50px;
 }
 
 .conteudo1-home img {
-    margin-top: 90px;
+    margin-top: 70px;
     border-radius: 10px;
     align-items: center;
 }
 
 .conteudo1-home h1, p{
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 .conteudo1-home p{
-margin-top: 30px;
-line-height: 35px;
-font-size: 22px;
+margin-top: 10px;
+line-height: 30px;
+font-size: 24px;
 }
 
 .esquerda-home, .direita-home {
     width: 48%;
 }
-
-
 
 
 /* 2ª sessão home */
@@ -413,6 +397,8 @@ font-size: 22px;
     margin-bottom: 19px;
 }
 
+
+
 .direita2-home h1{
     margin-top: 35px;
     margin-top: 19px;
@@ -422,12 +408,12 @@ font-size: 22px;
    display: flex;
    flex-direction: column-reverse;
 }
+
+
   
 }
 
 /* FIM CSS HOME */
-
-
 
 
 
