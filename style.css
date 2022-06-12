@@ -250,6 +250,10 @@ header {
 */
     
 
+.container h2 {
+color: #1266f1;
+}
+
 
 
 /* HOME */
@@ -302,7 +306,7 @@ header {
 .conteudo1-home p{
 margin-top: 10px;
 line-height: 30px;
-font-size: 24px;
+font-size: 22px;
 }
 
 .esquerda-home, .direita-home {
