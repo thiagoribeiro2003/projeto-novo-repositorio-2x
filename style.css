@@ -17,12 +17,17 @@ img, iframe {
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* zoom do site */
 html {
     font-size: 20px; /* ou 1rem*/
+    overflow-x: hidden;
+    
+    
 }
+
 
 
 /* determinando fonte */
@@ -119,8 +124,21 @@ header .limitador {
     z-index: 20;
 }
 
+header {
+    position: sticky;
+}
+
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
+<<<<<<< HEAD
+=======
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+>>>>>>> d2386483f0c5c56640a9caec4a45d3fbcaef8a86
 
 /* Página QUEM SOMOS */
 .container {
@@ -219,7 +237,33 @@ header .limitador {
 .cta-conteudo h2, .cta-conteudo1 h2, .cta-conteudo2 h2 {
     color: #3385d9;
 }
+<<<<<<< HEAD
 /* FIM DA QUEM SOMOS */
+=======
+
+
+
+
+.container h2 {
+    color: #1266f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> d2386483f0c5c56640a9caec4a45d3fbcaef8a86
 
 
 
@@ -245,7 +289,7 @@ header .limitador {
 
 /* HOME */
 .conteudo-home h1{
-    color: #3385d9;
+    color: #1266f1;
 }
 /* FIM HOME */
 
@@ -266,40 +310,39 @@ header .limitador {
 }
 
 
-
-
-
 /* HOME */
 
 /* HOME PARA TELAS GRANDES*/
-@media screen and (min-width: 901px ) {
+
+@media screen and (min-width: 901px) {
 /*1ª sessão home*/
 .conteudo1-home {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px; 
+    margin-bottom: 5px; 
+    align-items: center;
+    margin-left: 50px;
 }
 
 .conteudo1-home img {
-    margin-top: 90px;
+    margin-top: 70px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .conteudo1-home h1, p{
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 .conteudo1-home p{
-margin-top: 30px;
-line-height: 40px;
-font-size: 20px;
+margin-top: 10px;
+line-height: 30px;
+font-size: 24px;
 }
 
 .esquerda-home, .direita-home {
-    width: 45%;
+    width: 48%;
 }
-
-
 
 
 /* 2ª sessão home */
@@ -320,13 +363,17 @@ font-size: 20px;
 
 .conteudo2-home p{
 margin-top: 30px;
-line-height: 40px;
-font-size: 20px;
+line-height: 35px;
+font-size: 22px;
 }
 
+.direita2-home {
+    margin-top: 65px;
+}
 .esquerda2-home, .direita2-home {
     width: 45%;
 }
+
 }
 
 /*  HOME PARA TELAS PEQUENAS */
@@ -341,18 +388,31 @@ font-size: 20px;
 
 .conteudo-home img{
     margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.esquerda-home h1{
+    margin-top: 35px;
+    margin-bottom: 19px;
+}
+
+
+
+.direita2-home h1{
+    margin-top: 35px;
+    margin-top: 19px;
 }
 
 .conteudo2-home {
    display: flex;
    flex-direction: column-reverse;
 }
+
+
   
 }
 
 /* FIM CSS HOME */
-
-
 
 
 
