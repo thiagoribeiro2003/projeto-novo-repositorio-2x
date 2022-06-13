@@ -125,8 +125,12 @@ header .limitador {
 }
 
 header {
-    position: sticky;
+    
+   position: sticky;
+    top: 0;
 }
+
+
 
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
@@ -240,13 +244,17 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 120px;
-    
 }
+
 
 .coluna3 h1 {
     color:#1266f1;
     text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
+
+
 
  .coluna3 p {
     text-align: center;
@@ -402,8 +410,10 @@ margin-top: 5px;
 }
 
 .conteudo2-home h1, p{
-    margin-top: 10px;
+    margin-top: 35px;
 }
+
+
 
 .conteudo2-home p{
 margin-top: 30px;
@@ -415,6 +425,8 @@ font-size: 22px;
     margin-top: 65px;
 }
 
+
+
 .direita2-home p {
     margin-top: 5px;
    
@@ -423,6 +435,8 @@ font-size: 22px;
 .esquerda2-home, .direita2-home {
     width: 45%;
 }
+
+
 
 }
 
@@ -449,8 +463,9 @@ font-size: 22px;
 
 
 .direita2-home h1{
-    margin-top: 35px;
+   
     margin-top: 19px;
+    margin-left: 100px;
 }
 
 .conteudo2-home {
@@ -460,6 +475,12 @@ font-size: 22px;
 
 .esquerda-home h1 {
     text-align: center;
+    margin-left: 100px;
+}
+
+.direita-home h1 {
+   
+   
 }
 
  
@@ -477,6 +498,8 @@ font-size: 22px;
         
     }
 }
+
+
 
 /* FIM CSS HOME */
 
