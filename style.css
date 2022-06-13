@@ -131,18 +131,33 @@ header {
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
 
 
+
+
+
+
+
+
+
+
 /* Página QUEM SOMOS */
-.container {
+.container-somos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
 }
 
+.container-somos h1 {
+    margin-top: 50px;
+}
+
+
 .coluna1, .coluna1-img {
     width:45%;
     
 }
+
+
 
 .coluna1-img img {
     border-radius: 10px;
@@ -153,16 +168,40 @@ header {
     color: #3385d9;
 }
 
+
+/*  */
+.coluna1 h1{
+    margin-left: 50px;
+
+}
+
+.coluna1  p{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.coluna1-img {
+    margin-top: 50px;
+}
+
+.coluna1 {
+    margin-top: 30px;
+}
+
+
+
+
+
 /* Section container2 */
 .container2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 80px;
 }
-.coluna1 h1, p, .coluna2 h1, p, .coluna3 h1, p{
-    padding-top: 3vh;
-}
+
 
 .coluna2-img, .coluna2{
     width:45%;
@@ -170,6 +209,8 @@ header {
 
 .coluna2-img img {
     border-radius: 10px;
+    margin-left: 60px;
+    
 }
 
 .coluna2 h1 {
@@ -177,27 +218,47 @@ header {
     color: #3385d9;
 }
 
+.coluna2  {
+   margin-top: 30px;
+}
+
+.coluna2 p, h1 {
+    text-align: center;
+    margin-right: 80px;
+ }
+
+ .coluna2 p {
+    margin-top: 40px;
+    text-align: left;
+ }
+
+
+ 
 /* Section container3 */
 .container3 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 120px;
     
 }
 
-.coluna3-img, .coluna3{
-    width:45%;
-}
-
-.coluna3-img img {
-    border-radius: 10px;
-}
-
 .coluna3 h1 {
+    color:#1266f1;
     text-align: center;
-    color: #3385d9;
 }
+
+ .coluna3 p {
+    text-align: center;
+    padding-inline: 50px;
+ }
+
+ .coluna3-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
 
 
 /* cta */
@@ -264,6 +325,16 @@ color: #1266f1;
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* MENU RESPONSIVO */
 @media screen and (min-width: 660px ) {
     .icone {display: none;
@@ -300,17 +371,21 @@ color: #1266f1;
 }
 
 .conteudo1-home h1, p{
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .conteudo1-home p{
-margin-top: 10px;
+margin-top: px;
 line-height: 30px;
 font-size: 22px;
 }
 
 .esquerda-home, .direita-home {
     width: 48%;
+}
+
+.esquerda-home p{
+margin-top: 5px;
 }
 
 
@@ -327,7 +402,7 @@ font-size: 22px;
 }
 
 .conteudo2-home h1, p{
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .conteudo2-home p{
@@ -339,6 +414,12 @@ font-size: 22px;
 .direita2-home {
     margin-top: 65px;
 }
+
+.direita2-home p {
+    margin-top: 5px;
+   
+}
+
 .esquerda2-home, .direita2-home {
     width: 45%;
 }
@@ -377,8 +458,24 @@ font-size: 22px;
    flex-direction: column-reverse;
 }
 
+.esquerda-home h1 {
+    text-align: center;
+}
 
-  
+ 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .container-somos {
+        display: flex;
+        
+    }
 }
 
 /* FIM CSS HOME */
