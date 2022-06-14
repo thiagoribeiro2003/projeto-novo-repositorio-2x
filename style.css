@@ -169,7 +169,7 @@ header {
 
 .coluna1 h1 {
     text-align: center;
-    color: #3385d9;
+    color:#1266f1;
 }
 
 
@@ -219,7 +219,7 @@ header {
 
 .coluna2 h1 {
     text-align: center;
-    color: #3385d9;
+    color:#1266f1;
 }
 
 .coluna2  {
@@ -445,14 +445,26 @@ font-size: 22px;
 }
 
 
+/* MONITORES GRANDES */
 @media screen and (min-width: 1680px) {
 
+.conteudo-home h1{
+    font-size: 50px;
+   
+}
+
+.conteudo-home p {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
 .direita2-home {
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .esquerda-home h1 {
-color: red;
+
 }
 
 }
