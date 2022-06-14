@@ -445,11 +445,16 @@ font-size: 22px;
 }
 
 
-@media screen and (min-width: 1950px) {
+@media screen and (min-width: 1280px) {
+
+.direita2-home {
+    margin-top: 100px;
+}
 
 .esquerda-home h1 {
-    color: red;
+color: red;
 }
+
 }
 
 
