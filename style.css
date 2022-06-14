@@ -162,161 +162,7 @@ header {
 
 
 
-/* Página QUEM SOMOS */
-.container-somos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.container-somos h1 {
-    margin-top: 50px;
-}
-
-
-.coluna1, .coluna1-img {
-    width:45%;
-    
-}
-
-
-
-.coluna1-img img {
-    border-radius: 10px;
-}
-
-.coluna1 h1 {
-    text-align: center;
-    color:#1266f1;
-}
-
-
-/*  */
-.coluna1 h1{
-    margin-left: 50px;
-
-}
-
-.coluna1  p{
-    margin-left: 50px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    margin-right: 30px;
-}
-
-.coluna1-img {
-    margin-top: 50px;
-}
-
-.coluna1 {
-    margin-top: 30px;
-}
-
-
-
-
-
-/* Section container2 */
-.container2 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-top: 80px;
-}
-
-
-.coluna2-img, .coluna2{
-    width:45%;
-}
-
-.coluna2-img img {
-    border-radius: 10px;
-    margin-left: 60px;
-    
-}
-
-.coluna2 h1 {
-    text-align: center;
-    color:#1266f1;
-}
-
-.coluna2  {
-   margin-top: 30px;
-}
-
-.coluna2 p, h1 {
-    text-align: center;
-    margin-right: 80px;
- }
-
- .coluna2 p {
-    margin-top: 40px;
-    text-align: left;
- }
-
-
  
-/* Section container3 */
-.container3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 120px;
-}
-
-
-.coluna3 h1 {
-    color:#1266f1;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 30px;
-}
-
-
-
- .coluna3 p {
-    text-align: center;
-    padding-inline: 50px;
- }
-
- .coluna3-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
- }
-
-
-/* cta */
-.cta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 15vh;
-
-    
-}
-
-.cta1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-
-    
-}
-
-.cta-conteudo, .cta-conteudo1, .cta-conteudo2 {
-    width: 33%;
-    padding-top: 25px;
-    
-}
-
-.cta-conteudo h2, .cta-conteudo1 h2, .cta-conteudo2 h2 {
-    color: #3385d9;
-}
-/* FIM DA QUEM SOMOS */
 
 
 
@@ -461,6 +307,184 @@ font-size: 22px;
 .esquerda2-home, .direita2-home {
     width: 45%;
 }
+
+
+
+
+
+
+
+
+
+
+/* Página QUEM SOMOS  */
+.container-somos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.container-somos h1 {
+    margin-top: 50px;
+}
+
+
+.coluna1, .coluna1-img {
+    width:45%;
+    
+}
+
+
+
+.coluna1-img img {
+    border-radius: 10px;
+}
+
+.coluna1 h1 {
+    text-align: center;
+    color:#1266f1;
+}
+
+
+
+.coluna1 h1{
+    margin-left: 50px;
+
+}
+
+.coluna1  p{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.coluna1-img {
+    margin-top: 50px;
+}
+
+.coluna1 {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* Section container2 */
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+
+.coluna2-img, .coluna2{
+    width:45%;
+}
+
+.coluna2-img img {
+    border-radius: 10px;
+    margin-left: 60px;
+    
+}
+
+.coluna2 h1 {
+    text-align: center;
+    color:#1266f1;
+}
+
+.coluna2  {
+   margin-top: 30px;
+}
+
+.coluna2 p, h1 {
+    text-align: center;
+    margin-right: 80px;
+ }
+
+ .coluna2 p {
+    margin-top: 40px;
+    text-align: left;
+ }
+
+
+ 
+/* Section container3 */
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+
+.coluna3 h1 {
+    color:#1266f1;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+ .coluna3 p {
+    text-align: center;
+    padding-inline: 50px;
+ }
+
+ .coluna3-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
+
+
+/* cta */
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15vh;
+
+    
+}
+
+.cta1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+    
+}
+
+.cta-conteudo, .cta-conteudo1, .cta-conteudo2 {
+    width: 33%;
+    padding-top: 25px;
+    
+}
+
+.cta-conteudo h2, .cta-conteudo1 h2, .cta-conteudo2 h2 {
+    color: #3385d9;
+}
+
+
+
+
+
+/* FIM DA QUEM SOMOS */
+
+
+
+
+
+
 }
 
 
@@ -541,8 +565,7 @@ font-size: 22px;
 
 .direita2-home h1{
    
-    margin-top: 19px;
-    margin-left: 100px;
+    margin-top: 19px; 
     font-size: 30px;
 }
 
@@ -551,10 +574,83 @@ font-size: 22px;
    flex-direction: column-reverse;
 }
 
-.esquerda-home h1 {
-    
-    margin-left: 100px;
+
+
+
+
+
+
+
+
+/* QUEM SOMOS */
+.container2 {
+    display: flex;
+    flex-direction: column-reverse;
 }
+
+.container-somos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.coluna1-img{ 
+    margin: 0px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.coluna1 h1 {
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+
+.coluna2 h1{
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+.coluna2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.coluna2-img {
+    margin: 0px 6px;
+    border-radius: 10px;
+}
+
+.container3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.coluna3 h1{
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+/* FIM DAS SECTIONS */
+
+
+
+
+/* INICIO CTA */
+
+.cta {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.cta-somos {
+    margin-bottom: 252px;
+}
+
+
+
+
+
 
 
 
