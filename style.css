@@ -448,6 +448,7 @@ font-size: 22px;
 /* MONITORES GRANDES */
 @media screen and (min-width: 1680px) {
 
+    /* HOME */
 .conteudo-home h1{
     font-size: 50px;
    
@@ -463,11 +464,30 @@ font-size: 22px;
     margin-top: 130px;
 }
 
-.esquerda-home h1 {
+    /* FIM HOME */
+
+
+    /* QUEM SOMOS */
+
+    .container-somos p {
+        font-size: 25px;
+    }
+
+    .container2 p {
+        font-size: 25px;
+    }
+
+    .container3 p {
+        font-size: 25px;
+    }
+
+    .cta1 p {
+        font-size: 22px;
+    }
 
 }
 
-}
+
 
 
 
