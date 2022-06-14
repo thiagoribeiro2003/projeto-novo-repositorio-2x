@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
 /* MODIFICAÇÕES GERAIS */
@@ -50,8 +52,8 @@ html {
 
 
 /* determinando fonte */
-h1 {
-    font-family: 'Roboto', sans-serif;
+h1, h2, h6 {
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -93,8 +95,9 @@ nav, nav p {
 }
 /*  configurações do texto do menu */
 .menu a {
-    color: black;
-    font-weight: bold;
+    color: #333;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -135,7 +138,7 @@ header .limitador {
 }
 
 .limitador h2 a {
-    color: black;
+    color: #333;
 }
 
 /* MENU STICKY */
@@ -143,11 +146,6 @@ header .limitador {
     z-index: 20;
 }
 
-header {
-    
-   position: sticky;
-    top: 0;
-}
 
 
 
@@ -294,7 +292,7 @@ font-size: 22px;
 }
 
 .direita2-home {
-    margin-top: 65px;
+    margin-top: 95px;
 }
 
 
@@ -367,10 +365,6 @@ font-size: 22px;
 .coluna1 {
     margin-top: 30px;
 }
-
-
-
-
 
 
 
@@ -475,7 +469,9 @@ font-size: 22px;
 }
 
 
-
+h2 {
+    color: #3385d9;
+}
 
 
 /* FIM DA QUEM SOMOS */
@@ -526,6 +522,10 @@ font-size: 22px;
 
     .cta1 p {
         font-size: 22px;
+    }
+
+    .coluna3-img {
+        margin-bottom: 300px;
     }
 
 }
@@ -645,6 +645,7 @@ font-size: 22px;
 
 .cta1 {
     margin-top: 50px;
+    
 }
 
 .cta2 {
@@ -654,6 +655,8 @@ font-size: 22px;
 .cta3 {
     margin-top: 50px;
 }
+
+
 
 
 
