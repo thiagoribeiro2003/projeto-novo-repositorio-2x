@@ -12,6 +12,22 @@
     text-decoration: none;
 }
 
+.celular2 {
+   margin-right: 150px !important; 
+}
+
+.celular {
+    
+}
+
+.sociais {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 /* formatando imagens */
 img, iframe {
     max-width: 100%;
