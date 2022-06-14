@@ -601,7 +601,7 @@ font-size: 22px;
 }
 
 .coluna1 h1 {
-    color: #3385d9;
+    color:#3385d9;
     margin-bottom: 20px;
 }
 
@@ -643,8 +643,16 @@ font-size: 22px;
     margin-top: 0px;
 }
 
-.cta-somos {
-    margin-bottom: 252px;
+.cta1 {
+    margin-top: 50px;
+}
+
+.cta2 {
+    margin-top: 50px;
+}
+
+.cta3 {
+    margin-top: 50px;
 }
 
 
