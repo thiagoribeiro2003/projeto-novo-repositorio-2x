@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap');
 
 
-
-
 /* MODIFICAÇÕES GERAIS */
 
 *, *::after, *::before {
     box-sizing: border-box;
+}
+
+.branco {
+    color: white;
+    text-decoration: none;
 }
 
 /* formatando imagens */
