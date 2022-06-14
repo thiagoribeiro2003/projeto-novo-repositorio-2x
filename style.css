@@ -410,33 +410,36 @@ font-size: 22px;
  
 /* Section container3 */
 .container3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 120px;
+   
 }
 
 
 .coluna3 h1 {
-    color:#1266f1;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 30px;
+   
 }
 
 
 
  .coluna3 p {
-    text-align: center;
-    padding-inline: 50px;
+    
  }
 
  .coluna3-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+   
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* cta */
@@ -582,7 +585,12 @@ h2 {
 
 
 
+
 /* QUEM SOMOS */
+
+h1, h2 {
+    color: #3385d9;
+}
 .container2 {
     display: flex;
     flex-direction: column-reverse;
@@ -621,15 +629,34 @@ h2 {
     border-radius: 10px;
 }
 
-.container3 {
+
+
+
+
+/* Coluna 3 */
+.coluna3 {
     text-align: center;
     margin-top: 50px;
 }
 
-.coluna3 h1{
+.coluna3 h1 {
     color: #3385d9;
-    margin-bottom: 20px;
 }
+
+.coluna3-img {
+    text-align: center;
+    
+}
+
+.coluna3 li {
+    margin-top: 25px; 
+}
+
+
+
+
+
+
 
 /* FIM DAS SECTIONS */
 
@@ -638,18 +665,10 @@ h2 {
 
 /* INICIO CTA */
 
-.cta {
-    text-align: center;
-    margin-top: 0px;
-}
 
-.cta1 {
-    margin-top: 50px;
-    
-}
 
 .cta2 {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .cta3 {
