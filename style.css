@@ -162,7 +162,7 @@ header {
 
 
 
-/* Página QUEM SOMOS */
+ /* Página QUEM SOMOS  */
 .container-somos {
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +192,7 @@ header {
 }
 
 
-/*  */
+
 .coluna1 h1{
     margin-left: 50px;
 
@@ -212,6 +212,8 @@ header {
 .coluna1 {
     margin-top: 30px;
 }
+
+
 
 
 
@@ -316,6 +318,9 @@ header {
 .cta-conteudo h2, .cta-conteudo1 h2, .cta-conteudo2 h2 {
     color: #3385d9;
 }
+
+
+
 /* FIM DA QUEM SOMOS */
 
 
