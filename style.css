@@ -565,8 +565,7 @@ font-size: 22px;
 
 .direita2-home h1{
    
-    margin-top: 19px;
-    margin-left: 100px;
+    margin-top: 19px; 
     font-size: 30px;
 }
 
@@ -575,10 +574,6 @@ font-size: 22px;
    flex-direction: column-reverse;
 }
 
-.esquerda-home h1 {
-    
-    margin-left: 100px;
-}
 
 
 
@@ -594,9 +589,60 @@ font-size: 22px;
 }
 
 .container-somos {
-    display: flex;
-    
+    text-align: center;
+    margin-top: 20px;
 }
+
+.coluna1-img{ 
+    margin: 0px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.coluna1 h1 {
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+
+.coluna2 h1{
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+.coluna2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.coluna2-img {
+    margin: 0px 6px;
+    border-radius: 10px;
+}
+
+.container3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.coluna3 h1{
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+/* FIM DAS SECTIONS */
+
+
+
+
+/* INICIO CTA */
+
+.cta {
+    text-align: center;
+    margin-top: 0px;
+}
+
 
 
 
