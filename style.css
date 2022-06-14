@@ -162,7 +162,162 @@ header {
 
 
 
- /* Página QUEM SOMOS  */
+ 
+
+
+
+
+/* Página quero doar 
+.querodoar {
+    max-width: 10%;
+    width: 200px;
+}
+
+.container h2 {
+    color: #3385d9;
+}
+
+.container button {
+   margin-right: 250px;
+}
+
+*/
+    
+
+.container h2 {
+color: #1266f1;
+}
+
+
+
+/* HOME */
+.conteudo-home h1{
+    color: #1266f1;
+}
+/* FIM HOME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENU RESPONSIVO */
+@media screen and (min-width: 660px ) {
+    .icone {display: none;
+    }
+    .menu {
+        justify-content: space-between;
+        display: flex;
+        padding: 1rem;
+    }
+    .menu a{
+        padding:  0 1rem;
+    }
+}
+
+
+/* HOME */
+
+/* HOME PARA TELAS GRANDES*/
+
+@media screen and (min-width: 901px) {
+/*1ª sessão home*/
+.conteudo1-home {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px; 
+    align-items: center;
+    margin-left: 50px;
+}
+
+.conteudo1-home img {
+    margin-top: 70px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.conteudo1-home h1, p{
+    margin-top: 5px;
+}
+
+.conteudo1-home p{
+margin-top: px;
+line-height: 30px;
+font-size: 22px;
+}
+
+.esquerda-home, .direita-home {
+    width: 48%;
+}
+
+.esquerda-home p{
+margin-top: 5px;
+}
+
+.esquerda-home h1 {
+    font-size: 35px;
+}
+
+
+/* 2ª sessão home */
+.direita2-home h1 {
+   font-size: 35px;
+}
+.conteudo2-home {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px; 
+}
+
+.conteudo2-home img {
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.conteudo2-home h1, p{
+    margin-top: 35px;
+}
+
+
+
+.conteudo2-home p{
+margin-top: 30px;
+line-height: 35px;
+font-size: 22px;
+}
+
+.direita2-home {
+    margin-top: 65px;
+}
+
+
+
+.direita2-home p {
+    margin-top: 5px;
+   
+}
+
+.esquerda2-home, .direita2-home {
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Página QUEM SOMOS  */
 .container-somos {
     display: flex;
     flex-wrap: wrap;
@@ -321,151 +476,15 @@ header {
 
 
 
+
+
 /* FIM DA QUEM SOMOS */
 
 
 
 
-/* Página quero doar 
-.querodoar {
-    max-width: 10%;
-    width: 200px;
-}
-
-.container h2 {
-    color: #3385d9;
-}
-
-.container button {
-   margin-right: 250px;
-}
-
-*/
-    
-
-.container h2 {
-color: #1266f1;
-}
 
 
-
-/* HOME */
-.conteudo-home h1{
-    color: #1266f1;
-}
-/* FIM HOME */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MENU RESPONSIVO */
-@media screen and (min-width: 660px ) {
-    .icone {display: none;
-    }
-    .menu {
-        justify-content: space-between;
-        display: flex;
-        padding: 1rem;
-    }
-    .menu a{
-        padding:  0 1rem;
-    }
-}
-
-
-/* HOME */
-
-/* HOME PARA TELAS GRANDES*/
-
-@media screen and (min-width: 901px) {
-/*1ª sessão home*/
-.conteudo1-home {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5px; 
-    align-items: center;
-    margin-left: 50px;
-}
-
-.conteudo1-home img {
-    margin-top: 70px;
-    border-radius: 10px;
-    align-items: center;
-}
-
-.conteudo1-home h1, p{
-    margin-top: 5px;
-}
-
-.conteudo1-home p{
-margin-top: px;
-line-height: 30px;
-font-size: 22px;
-}
-
-.esquerda-home, .direita-home {
-    width: 48%;
-}
-
-.esquerda-home p{
-margin-top: 5px;
-}
-
-.esquerda-home h1 {
-    font-size: 35px;
-}
-
-
-/* 2ª sessão home */
-.direita2-home h1 {
-   font-size: 35px;
-}
-.conteudo2-home {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 90px; 
-}
-
-.conteudo2-home img {
-    margin-top: 90px;
-    border-radius: 10px;
-}
-
-.conteudo2-home h1, p{
-    margin-top: 35px;
-}
-
-
-
-.conteudo2-home p{
-margin-top: 30px;
-line-height: 35px;
-font-size: 22px;
-}
-
-.direita2-home {
-    margin-top: 65px;
-}
-
-
-
-.direita2-home p {
-    margin-top: 5px;
-   
-}
-
-.esquerda2-home, .direita2-home {
-    width: 45%;
-}
 }
 
 
@@ -560,6 +579,28 @@ font-size: 22px;
     
     margin-left: 100px;
 }
+
+
+
+
+
+
+
+
+/* QUEM SOMOS */
+.container2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-somos {
+    display: flex;
+    
+}
+
+
+
+
 
 
 
