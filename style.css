@@ -442,10 +442,21 @@ font-size: 22px;
 .esquerda2-home, .direita2-home {
     width: 45%;
 }
-
-
-
 }
+
+
+@media screen and (min-width: 1950px) {
+
+.esquerda-home h1 {
+    color: red;
+}
+}
+
+
+
+
+
+
 
 /*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 900px) {
