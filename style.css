@@ -18,17 +18,12 @@
    margin-right: 150px !important; 
 }
 
-.celular {
-    
-}
+
 
 .sociais {
     display: flex;
     justify-content: space-around;
 }
-
-
-
 
 /* formatando imagens */
 img, iframe {
@@ -44,9 +39,7 @@ body {
 /* zoom do site */
 html {
     font-size: 20px; /* ou 1rem*/
-    overflow-x: hidden;
-    
-    
+    overflow-x: hidden; 
 }
 
 
@@ -128,8 +121,12 @@ header .limitador {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    
+    position: sticky;
+    top: 0;
+
 }
+ 
+   
 
 .limitador {
     max-width: 1100px;
