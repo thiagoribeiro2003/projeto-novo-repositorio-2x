@@ -526,15 +526,24 @@ h2 {
 
 
 
+/* MEDIA PARA TELAS DE TABLETE , PÁGINA QUERO DOAR */
 
+@media screen and (max-width: 768px) {
 
+    .delcelulares {
+            display: none;
+    }
 
+}
 
 
 
 /*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 900px) {
 
+    .delcelulares {
+            display: none;
+    }
     
 .conteudo-home {
     text-align: center;
