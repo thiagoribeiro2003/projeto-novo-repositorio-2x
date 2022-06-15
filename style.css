@@ -19,7 +19,6 @@
 }
 
 
-
 .sociais {
     display: flex;
     justify-content: space-around;
@@ -315,7 +314,6 @@ font-size: 22px;
 /* Página QUEM SOMOS  */
 .container-somos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
 }
@@ -325,9 +323,17 @@ font-size: 22px;
 }
 
 
-.coluna1, .coluna1-img {
-    width:45%;
-    
+
+
+
+.coluna1{
+    width: 45%;
+}
+
+
+
+.imgUm{
+    width: 100%;
 }
 
 
