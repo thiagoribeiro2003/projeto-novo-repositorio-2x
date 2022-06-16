@@ -203,7 +203,7 @@ color: #1266f1;
 
 
 /* MENU RESPONSIVO */
-@media screen and (min-width: 660px ) {
+@media screen and (min-width: 951px ) {
     .icone {display: none;
     }
     .menu {
