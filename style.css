@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
 /* MODIFICAÇÕES GERAIS */
@@ -16,17 +18,11 @@
    margin-right: 150px !important; 
 }
 
-.celular {
-    
-}
 
 .sociais {
     display: flex;
     justify-content: space-around;
 }
-
-
-
 
 /* formatando imagens */
 img, iframe {
@@ -42,16 +38,14 @@ body {
 /* zoom do site */
 html {
     font-size: 20px; /* ou 1rem*/
-    overflow-x: hidden;
-    
-    
+    overflow-x: hidden; 
 }
 
 
 
 /* determinando fonte */
-h1 {
-    font-family: 'Roboto', sans-serif;
+h1, h2, h6 {
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -93,8 +87,9 @@ nav, nav p {
 }
 /*  configurações do texto do menu */
 .menu a {
-    color: black;
-    font-weight: bold;
+    color: #333;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -125,8 +120,12 @@ header .limitador {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    
+    position: sticky;
+    top: 0;
+
 }
+ 
+   
 
 .limitador {
     max-width: 1100px;
@@ -135,7 +134,7 @@ header .limitador {
 }
 
 .limitador h2 a {
-    color: black;
+    color: #333;
 }
 
 /* MENU STICKY */
@@ -143,11 +142,6 @@ header .limitador {
     z-index: 20;
 }
 
-header {
-    
-   position: sticky;
-    top: 0;
-}
 
 
 
@@ -294,7 +288,7 @@ font-size: 22px;
 }
 
 .direita2-home {
-    margin-top: 65px;
+    margin-top: 95px;
 }
 
 
@@ -320,7 +314,6 @@ font-size: 22px;
 /* Página QUEM SOMOS  */
 .container-somos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
 }
@@ -330,9 +323,17 @@ font-size: 22px;
 }
 
 
-.coluna1, .coluna1-img {
-    width:45%;
-    
+
+
+
+.coluna1{
+    width: 45%;
+}
+
+
+
+.imgUm{
+    width: 100%;
 }
 
 
@@ -367,10 +368,6 @@ font-size: 22px;
 .coluna1 {
     margin-top: 30px;
 }
-
-
-
-
 
 
 
@@ -416,76 +413,72 @@ font-size: 22px;
  
 /* Section container3 */
 .container3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 120px;
+   display: flex;
+   margin-bottom: 40px;
 }
 
+.coluna3 {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.coluna3-img {
+    width: 50%;
+    text-align: center;
+}
 
 .coluna3 h1 {
-    color:#1266f1;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 30px;
+   color: #3385d9;
 }
 
 
-
- .coluna3 p {
-    text-align: center;
-    padding-inline: 50px;
+ .coluna3 ul {
+    margin: 35px;
+    text-align: left;
  }
 
- .coluna3-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
- }
+ article h2 {
+    margin-top: 20px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* cta */
-.cta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 15vh;
 
-    
-}
 
-.cta1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
 
-    
-}
-
-.cta-conteudo, .cta-conteudo1, .cta-conteudo2 {
-    width: 33%;
-    padding-top: 25px;
-    
-}
-
-.cta-conteudo h2, .cta-conteudo1 h2, .cta-conteudo2 h2 {
+h2 {
     color: #3385d9;
 }
-
-
-
 
 
 /* FIM DA QUEM SOMOS */
 
 
 
-
-
-
 }
+
+
+
+
+
+
+
+
 
 
 /* MONITORES GRANDES */
@@ -528,19 +521,33 @@ font-size: 22px;
         font-size: 22px;
     }
 
+    .coluna3-img {
+        margin-bottom: 300px;
+    }
+
 }
 
 
 
+/* MEDIA PARA TELAS DE TABLETE , PÁGINA QUERO DOAR */
 
+@media screen and (max-width: 768px) {
 
+    .delcelulares {
+            display: none;
+    }
 
+    
+}
 
 
 
 /*  HOME PARA TELAS PEQUENAS */
 @media screen and (max-width: 900px) {
 
+    .delcelulares {
+            display: none;
+    }
     
 .conteudo-home {
     text-align: center;
@@ -565,8 +572,7 @@ font-size: 22px;
 
 .direita2-home h1{
    
-    margin-top: 19px;
-    margin-left: 100px;
+    margin-top: 19px; 
     font-size: 30px;
 }
 
@@ -575,10 +581,7 @@ font-size: 22px;
    flex-direction: column-reverse;
 }
 
-.esquerda-home h1 {
-    
-    margin-left: 100px;
-}
+
 
 
 
@@ -588,15 +591,104 @@ font-size: 22px;
 
 
 /* QUEM SOMOS */
+
+h1, h2 {
+    color: #3385d9;
+}
 .container2 {
     display: flex;
     flex-direction: column-reverse;
 }
 
 .container-somos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.coluna1-img{ 
+    margin: 0px 20px;
+    border-radius: 10px;
     display: flex;
+    justify-content: center;
+}
+
+.coluna1 h1 {
+    color:#3385d9;
+    margin-bottom: 20px;
+}
+
+
+.coluna2 h1{
+    color: #3385d9;
+    margin-bottom: 20px;
+}
+
+.coluna2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.coluna2-img {
+    margin: 0px 6px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* Coluna 3 */
+.coluna3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.coluna3 h1 {
+    color: #3385d9;
+}
+
+.coluna3-img {
+    text-align: center;
     
 }
+
+.coluna3 li {
+    margin-top: 25px; 
+}
+
+.container3 {
+    margin-bottom: 60px;
+}
+
+ article h2 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* FIM DAS SECTIONS */
+
+
+
+
+/* INICIO CTA */
+
+
+
+.cta2 {
+    margin-top: 10px;
+}
+
+.cta3 {
+    margin-top: 50px;
+}
+
+
+
 
 
 
