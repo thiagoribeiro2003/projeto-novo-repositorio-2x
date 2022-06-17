@@ -122,8 +122,10 @@ header .limitador {
     justify-content: space-between;
     position: sticky;
     top: 0;
-
 }
+
+
+
  
    
 
@@ -146,9 +148,6 @@ header .limitador {
 
 
 /* FIM DAS CONFIGURAÇÕES DO MENU*/
-
-
-
 
 
 
@@ -315,7 +314,7 @@ font-size: 22px;
 .container-somos {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .container-somos h1 {
