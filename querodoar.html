@@ -97,27 +97,31 @@
   <!-- Espaço do conteudo e fomulário, seguir como esta no layout, as imagens ja estao na pasta-->
 
     <section class="container mt-lg-4 pt-4 sectionformulario" id="contato">
-      <form id="formulario" class="row g-3">
+      <form action="https://formspree.io/f/mjvldkvy" method="post" id="formulario" class="row g-3">
         <h2 class="text-center mt-5 mt-md-0">QUERO FAZER MINHA DOAÇÃO</h2> 
+
           <div class="col-md-6">
             <label for="inputEmail4" class="form-label"></label>
+
             <div class="input-group">
               <div class="input-group-text bg-transparent"><i class="bi bi-person-fill"></i></div>
-              <input type="text" class="form-control" id="inputEmail4" placeholder="Nome:">
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Nome:" name="Nome">
             </div>
           </div>
+
           <div class="col-md-6">
             <label for="inputPassword4" class="form-label"></label>
             <div class="input-group">
               <div class="input-group-text bg-transparent"><i class="bi bi-telephone-fill"></i></div>
-              <input type="tel" class="form-control" id="inputPassword4" placeholder="Tefefone:">
+              <input type="tel" class="form-control" id="inputPassword4" placeholder="Tefefone:" name="Telefone">
             </div>  
           </div>
+
           <div class="col-md-12">
             <label for="inputPassword4" class="form-label"></label> 
             <div class="input-group">
               <div class="input-group-text bg-transparent aleatorio"><i class="bi bi-envelope-fill"></i></div>
-              <input type="email" class="form-control" id="inputPassword4" placeholder="E-mail:">
+              <input type="email" class="form-control" id="inputPassword4" placeholder="E-mail:" name="E-mail">
             </div>  
           </div>
           
@@ -135,21 +139,23 @@
 
 
               
-              <h2 class="text-center ">O que deseja doar?</h2>
-           <div class="d-flex justify-content-between">
+              <h2 class="text-center">O que deseja doar?</h2>
+           <section class="d-flex justify-content-between">
               <div class="form-check form-check-inline text-center">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Roupas">
                 <label class="form-check-label" for="inlineCheckbox1">Roupas</label>
               </div>
+
               <div class="form-check form-check-inline text-center">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Cobertores">
                 <label class="form-check-label" for="inlineCheckbox2">Cobertores</label>
               </div>
+
               <div class="form-check form-check-inline text-center">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Calçados">
                 <label class="form-check-label" for="inlineCheckbox3">Calçados</label>
               </div>
-            </div>
+           </section>
 
 
             <!-- Endereço  -->
@@ -161,7 +167,7 @@
             <label for="inputPassword4" class="form-label"></label> 
             <div class="input-group">
               <div class="input-group-text bg-transparent"><i class="bi bi-geo-alt-fill"></i></div>
-              <input type="email" class="form-control" id="inputPassword4" placeholder="Endereço:">
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Endereço:" name="Endereço">
             </div>  
           </div>
           
@@ -169,7 +175,7 @@
             <label for="inputAddress" class="form-label"></label>
             <div class="input-group">
               <div class="input-group-text bg-transparent"><i class="bi bi-123"></i></div>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Número:">
+              <input type="number" class="form-control" id="inputAddress" placeholder="Número:" name="Número">
             </div>
           </div>
 
@@ -178,21 +184,35 @@
             <label for="inputEmail4" class="form-label"></label>
             <div class="input-group">
               <div class="input-group-text bg-transparent"><i class="bi bi-123"></i></div>
-              <input type="text" class="form-control" id="inputEmail4" maxlength="9" placeholder="CEP: ">
+              <input type="number" class="form-control" id="inputEmail4" maxlength="9" placeholder="CEP: " name="CEP">
             </div>
           </div>
-          <div class="col-md-6 ">
+
+
+
+
+          <div class="col-md-6">
             <label for="inputAddress" class="form-label"></label>
             <div class="input-group ">
               <div class="input-group-text bg-transparent"><i class="bi bi-geo-alt-fill"></i></div>
-              <input type="number" class="form-control" id="inputAddress" placeholder="Complemento:">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Complemento:" name="Complemento">
             </div>
           </div>
+
+          <!-- Complemento -->
+          <!-- <div class="col-md-6 ">
+            <label for="inputAddress" class="form-label"></label>
+            <div class="input-group ">
+              <div class="input-group-text bg-transparent"><i class="bi bi-geo-alt-fill"></i></div>
+              <input type="number" class="form-control" id="inputAddress" placeholder="Complemento:" name="Complemento">
+            </div>
+          </div> -->
+
           <div class="col-md-6">
             <label for="inputAddress" class="form-label"></label>
             <div class="input-group ">
               <div class="input-group-text bg-transparent"><i class="bi bi-house-fill"></i></div>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Bairro:">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Bairro:" name="Bairro">
             </div>
           </div>
 
@@ -200,14 +220,15 @@
             <label for="inputCity" class="form-label"></label>
             <div class="input-group ">
               <div class="input-group-text bg-transparent"><i class="bi bi-house-door-fill"></i></div>
-              <input type="text" class="form-control" id="inputCity" placeholder="Cidade: ">
+              <input type="text" class="form-control" id="inputCity" placeholder="Cidade: " name="Cidade">
             </div>
           </div>
+
           <div class="col-md-6">
             <label for="inputState" class="form-label"></label>
             <div class="input-group ">
               <div class="input-group-text bg-transparent"><i class="bi bi-bank"></i></div>
-              <select id="inputState" class="form-select">
+              <select id="inputState" class="form-select" name="Estado">
                 <option selected>Estado</option>
                 <option>São Paulo</option>
               </select>
