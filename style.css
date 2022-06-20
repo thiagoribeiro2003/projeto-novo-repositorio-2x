@@ -376,6 +376,7 @@ font-size: 22px;
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 80px;
+    margin-bottom: 10px;
 }
 
 
@@ -521,9 +522,21 @@ h2 {
     }
 
     .coluna3-img {
-        margin-bottom: 300px;
+        margin-bottom: 100px;
     }
 
+
+    .container3 {
+        margin-top: 190px;
+    }
+
+
+
+    /*Quem Somos*/
+
+    .row {
+        margin-bottom: 20px;
+    }
 }
 
 
