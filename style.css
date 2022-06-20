@@ -258,12 +258,18 @@ margin-top: 5px;
     font-size: 35px;
 }
 
+.coluna1-img {
+    margin-right: 50px;
+    margin-right: 50px;
+}
+
 
 /* 2ª sessão home */
 .direita2-home h1 {
    font-size: 35px;
 }
-.conteudo2-home {
+
+/*.conteudo2-home {
     display: flex;
     justify-content: space-around;
     margin-bottom: 90px; 
@@ -272,6 +278,11 @@ margin-top: 5px;
 .conteudo2-home img {
     margin-top: 90px;
     border-radius: 10px;
+}
+*/
+
+.coluna2-img {
+    margin-left: 10px;
 }
 
 .conteudo2-home h1, p{
@@ -290,11 +301,8 @@ font-size: 22px;
     margin-top: 95px;
 }
 
-
-
 .direita2-home p {
-    margin-top: 5px;
-   
+    margin-top: 5px; 
 }
 
 .esquerda2-home, .direita2-home {
@@ -527,7 +535,7 @@ h2 {
 
 
     .container3 {
-        margin-top: 
+        margin-top: 50px
     }
 
 
