@@ -376,6 +376,7 @@ font-size: 22px;
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 80px;
+    margin-bottom: 10px;
 }
 
 
@@ -524,6 +525,18 @@ h2 {
         margin-bottom: 100px;
     }
 
+
+    .container3 {
+        margin-top: 190px;
+    }
+
+
+
+    /*Quem Somos*/
+
+    .row {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -694,26 +707,27 @@ h1, h2 {
   
 }
 
-.leisLgpd {
-align-items: center;
-margin-left: 20px;
-margin-right: 20px;
-}
-
-.leisLgpd p{
-margin-top: 40px;
-}
-
-.lgpdh1 h1  {
-    text-align: center;   
-}
-
-.lgpdh1 p {
-    text-align: center;
-}
 
 
 /* FIM CSS HOME */
+
+.leisLgpd {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    .leisLgpd p{
+    margin-top: 40px;
+    }
+    
+    .lgpdh1 h1  {
+        text-align: center;   
+    }
+    
+    .lgpdh1 p {
+        text-align: center;
+    }
 
 
 
