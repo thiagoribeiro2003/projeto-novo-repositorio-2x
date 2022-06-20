@@ -268,8 +268,7 @@ margin-top: 5px;
 .direita2-home h1 {
    font-size: 35px;
 }
-
-/*.conteudo2-home {
+.conteudo2-home {
     display: flex;
     justify-content: space-around;
     margin-bottom: 90px; 
@@ -278,11 +277,6 @@ margin-top: 5px;
 .conteudo2-home img {
     margin-top: 90px;
     border-radius: 10px;
-}
-*/
-
-.coluna2-img {
-    margin-left: 10px;
 }
 
 .conteudo2-home h1, p{
@@ -735,6 +729,10 @@ h1, h2 {
     
     .lgpdh1 p {
         text-align: center;
+    }
+
+    .chavepix {
+        margin-left: 820px;
     }
 
 
