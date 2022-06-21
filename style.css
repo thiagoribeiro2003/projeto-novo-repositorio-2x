@@ -731,6 +731,17 @@ h1, h2 {
         text-align: center;
     }
 
+
+    .politica {
+        text-decoration: none;
+        margin-top: 100px;
+    }
+
+    .politicaCtt {
+        text-decoration: none;
+        margin-top: 100px;
+        margin-left: 360px;
+    }
    
 
 
